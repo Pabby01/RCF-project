@@ -1,0 +1,202 @@
+.border {
+    position: absolute;
+    top: 0px;
+    right: 2.3px;
+    border-radius: 2.67px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 22px;
+    height: 11.3px;
+    opacity: 0.35;
+    mix-blend-mode: normal;
+    visibility: hidden;
+}
+.cap-icon {
+    position: absolute;
+    top: 3.67px;
+    right: 0px;
+    width: 1.3px;
+    height: 4px;
+    opacity: 0.4;
+    mix-blend-mode: normal;
+}
+.capacity {
+    position: absolute;
+    top: 2px;
+    right: 4.3px;
+    border-radius: 1.33px;
+    background-color: #000;
+    width: 18px;
+    height: 7.3px;
+}
+.battery {
+    position: absolute;
+    top: 17.33px;
+    right: 14.37px;
+    width: 24.3px;
+    height: 11.3px;
+}
+.wifi-icon {
+    position: relative;
+    width: 15.3px;
+    height: 11px;
+}
+.cellular-connection-icon {
+    position: relative;
+    width: 17px;
+    height: 10.7px;
+}
+.time {
+    position: absolute;
+    width: 100%;
+    top: calc(50% - 4.5px);
+    left: 0%;
+    letter-spacing: -0.24px;
+    line-height: 20px;
+    font-weight: 600;
+    display: inline-block;
+}
+.time-style {
+    position: absolute;
+    top: 7px;
+    left: 21px;
+    width: 54px;
+    height: 21px;
+}
+.notch-icon {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 110.5px);
+    width: 219px;
+    height: 30px;
+}
+.status-bars {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 195.5px);
+    background-color: #fff;
+    width: 390px;
+    height: 56px;
+    font-family: 'SF Pro Text';
+}
+.vuesaxtwotonearrow-left-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 24px;
+    height: 24px;
+}
+.work-samples {
+    position: absolute;
+    top: 4px;
+    left: calc(50% - 67.5px);
+    line-height: 21px;
+    display: inline-block;
+    width: 135px;
+    height: 16px;
+}
+.vuesaxtwotonearrow-left-parent {
+    position: absolute;
+    top: 64px;
+    left: 24px;
+    width: 345px;
+    height: 24px;
+    font-size: 14px;
+    color: #01001a;
+}
+.line {
+    position: absolute;
+    bottom: 8px;
+    left: calc(50% - 67.5px);
+    border-radius: 100px;
+    background-color: #000;
+    width: 135px;
+    height: 5px;
+}
+.home-indicator {
+    position: absolute;
+    bottom: 0px;
+    left: calc(50% - 187.5px);
+    width: 375px;
+    height: 34px;
+}
+.frame-child {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 74px);
+    width: 148px;
+    height: 106px;
+    object-fit: cover;
+}
+.easter-design {
+    position: absolute;
+    top: 115px;
+    left: calc(50% - 62px);
+    line-height: 18px;
+    font-weight: 500;
+    display: inline-block;
+    width: 112px;
+    height: 17px;
+}
+.rectangle-parent {
+    width: 148px;
+    position: relative;
+    border-radius: 4px;
+    background-color: #f6f6f6;
+    height: 141px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.frame-group {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 17px;
+}
+.new-year-design {
+    position: absolute;
+    top: 115px;
+    left: calc(50% - 62px);
+    line-height: 18px;
+    font-weight: 500;
+    display: inline-block;
+    width: 114px;
+    height: 17px;
+}
+.frame-parent {
+    position: absolute;
+    top: 20px;
+    left: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 17px;
+}
+.business-profile-inner {
+    position: absolute;
+    top: 112px;
+    left: calc(50% - 172.5px);
+    filter: drop-shadow(1px 2px 3px rgba(0, 0, 0, 0.06));
+    border-radius: 4px;
+    border: 1px solid #f1f1f1;
+    box-sizing: border-box;
+    width: 345px;
+    height: 681px;
+    text-align: left;
+    font-size: 12px;
+    color: #2b2b40;
+}
+.business-profile {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 988px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 15px;
+    color: #000;
+    font-family: Whyte;
+}
+

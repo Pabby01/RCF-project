@@ -1,0 +1,305 @@
+.border {
+    position: absolute;
+    top: 0px;
+    right: 2.3px;
+    border-radius: 2.67px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 22px;
+    height: 11.3px;
+    opacity: 0.35;
+    mix-blend-mode: normal;
+}
+.cap-icon {
+    position: absolute;
+    top: 3.67px;
+    right: 0px;
+    width: 1.3px;
+    height: 4px;
+    opacity: 0.4;
+    mix-blend-mode: normal;
+}
+.capacity {
+    position: absolute;
+    top: 2px;
+    right: 4.3px;
+    border-radius: 1.33px;
+    background-color: #000;
+    width: 18px;
+    height: 7.3px;
+}
+.battery {
+    position: absolute;
+    top: 17.33px;
+    right: 14.37px;
+    width: 24.3px;
+    height: 11.3px;
+}
+.wifi-icon {
+    position: relative;
+    width: 15.3px;
+    height: 11px;
+}
+.cellular-connection-icon {
+    position: relative;
+    width: 17px;
+    height: 10.7px;
+}
+.time {
+    position: absolute;
+    width: 100%;
+    top: calc(50% - 4.5px);
+    left: 0%;
+    letter-spacing: -0.24px;
+    line-height: 20px;
+    font-weight: 600;
+    display: inline-block;
+}
+.time-style {
+    position: absolute;
+    top: 7px;
+    left: 21px;
+    width: 54px;
+    height: 21px;
+}
+.notch-icon {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 110.5px);
+    width: 219px;
+    height: 30px;
+}
+.status-bars {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 195.5px);
+    background-color: #fff;
+    width: 390px;
+    height: 56px;
+    text-align: center;
+    font-size: 15px;
+    color: #000;
+    font-family: 'SF Pro Text';
+}
+.background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    backdrop-filter: blur(10px);
+    background-color: #fff;
+}
+.divider {
+    position: absolute;
+    width: 100.13%;
+    top: -0.25px;
+    right: -0.06%;
+    left: -0.06%;
+    border-top: 0.5px solid #eaedf4;
+    box-sizing: border-box;
+    height: 0.5px;
+}
+.preview {
+    position: relative;
+    line-height: 21px;
+    left: 120px ;
+}
+.preview-wrapper {
+    position: absolute;
+    bottom: 30px;
+    left: calc(50% - 172.5px);
+    border-radius: 4px;
+    background-color: #18a8e6;
+    width: 345px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 60px 12px;
+    box-sizing: border-box;
+}
+.line {
+    position: absolute;
+    bottom: 8px;
+    left: calc(50% - 67.5px);
+    border-radius: 100px;
+    background-color: #000;
+    width: 135px;
+    height: 5px;
+}
+.home-indicator {
+    position: absolute;
+    bottom: 0px;
+    left: calc(50% - 187.5px);
+    width: 375px;
+    height: 34px;
+}
+.tab-bars {
+    position: absolute;
+    bottom: -50px ;
+    left: calc(50% - 196.5px);
+    box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.05);
+    width: 393px;
+    height: 101px;
+    color: #fff;
+}
+.show-off-your {
+    position: absolute;
+    top: 104px;
+    left: calc(50% - 172.5px);
+    line-height: 21px;
+    color: #2b2b40;
+    display: inline-block;
+    width: 345px;
+}
+.enter-a-brief-but-descriptive-wrapper {
+    border-radius: 4px;
+    border: 1px solid #c9c9c9;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 16px 20px 12px;
+    color: #c9c9c9;
+}
+.work-title-parent {
+    display: flex;
+    position: center;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.briefly-describe-the-works-go-wrapper {
+    align-self: stretch;
+    border-radius: 4px;
+    border: 1px solid #c9c9c9;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 16px 20px 80px;
+    color: #c9c9c9;
+}
+.frame-child {
+    width: 44px;
+    position: relative;
+    height: 44px;
+}
+.frame-item {
+    width: 45px;
+    position: relative;
+    height: 44px;
+}
+.frame-container {
+    position: absolute;
+    top: 32px;
+    left: calc(50% - 113.5px);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.frame-wrapper {
+    width: 345px;
+    position: relative;
+    border-radius: 4px;
+    background-color: #f6f6f6;
+    height: 108px;
+}
+.note-that-you {
+    width: 345px;
+    position: relative;
+    line-height: 18px;
+    display: inline-block;
+}
+.frame-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    text-align: center;
+    font-size: 12px;
+    color: #565566;
+}
+.frame-parent {
+    position: absolute;
+    top: 178px;
+    left: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.vuesaxtwotonearrow-left-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 24px;
+    height: 24px;
+}
+.ellipse-div {
+    width: 3px;
+    position: relative;
+    border-radius: 50%;
+    background-color: #01001a;
+    height: 3px;
+}
+.ellipse-parent {
+    position: absolute;
+    top: calc(50% - 7px);
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 3px;
+}
+.work-samples {
+    position: absolute;
+    top: 4px;
+    left: calc(50% - 67.5px);
+    line-height: 21px;
+    display: inline-block;
+    width: 135px;
+    height: 16px;
+}
+.vuesaxtwotonearrow-left-parent {
+    position: absolute;
+    top: 64px;
+    left: 24px;
+    width: 345px;
+    height: 24px;
+    text-align: center;
+}
+.create-business-profile {
+    width: 100%;
+
+    background-color: #fff;
+    height: 822px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 14px;
+    position: center;
+    color: #01001a;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.run {
+    width: 300px ;
+    height: 50px;
+    left: 100px ;
+}
+.die {
+    width: 300px;
+    height: 150px ;
+}
+.me {
+    position: center;
+}
+

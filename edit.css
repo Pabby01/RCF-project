@@ -1,0 +1,57 @@
+.edit-your-business {
+    position: absolute;
+    top: 152px;
+    left: calc(50% - 125.5px);
+    font-size: 20px;
+    line-height: 30px;
+}
+.refine-your-brands {
+    position: absolute;
+    top: 198px;
+    left: calc(50% - 172.5px);
+    line-height: 21px;
+    color: #2b2b40;
+    display: inline-block;
+    width: 345px;
+}
+.undraw-editable-re-4l94-1-icon {
+    position: absolute;
+    top: 36px;
+    left: calc(50% - 42.5px);
+    width: 84.4px;
+    height: 96.4px;
+    overflow: hidden;
+}
+.yes-proceed {
+    position: relative;
+    line-height: 21px;
+}
+.yes-proceed-wrapper {
+    position: absolute;
+    bottom: 45px;
+    left: calc(50% - 172.5px);
+    border-radius: 4px;
+    background-color: #04a7ec;
+    width: 345px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 60px 12px;
+    box-sizing: border-box;
+    text-align: left;
+    color: #fff;
+}
+.edit-your-business-profile-parent {
+    width: 100%;
+    position: relative;
+    border-radius: 32px 32px 0px 0px;
+    background-color: #fff;
+    height: 362px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 14px;
+    color: #01001a;
+    font-family: Whyte;
+}
+

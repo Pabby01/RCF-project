@@ -1,0 +1,58 @@
+.deactivate-your-business {
+    position: absolute;
+    top: 350px;
+    left: calc(50% - 125.5px);
+    font-size: 20px;
+    line-height: 30px;
+}
+.taking-a-break {
+    position: absolute;
+    top: 450px;
+    left: calc(50% - 172.5px);
+    line-height: 21px;
+    color: #2b2b40;
+    display: inline-block;
+    width: 345px;
+}
+.frame-child {
+    position: absolute;
+    top: 200px;
+    left: calc(50% - 44.5px);
+    border-radius: 8px;
+    background-color: #d9d9d9;
+    width: 90px;
+    height: 72px;
+}
+.yes-proceed {
+    position: relative;
+    line-height: 21px;
+}
+.yes-proceed-wrapper {
+    position: absolute;
+    bottom: 45px;
+    left: calc(50% - 172.5px);
+    border-radius: 4px;
+    background-color: #dc0234;
+    width: 345px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 60px 12px;
+    box-sizing: border-box;
+    text-align: left;
+    color: #fff;
+}
+.deactivate-your-business-parent {
+    width: 100%;
+    position: relative;
+    border-radius: 32px 32px 0px 0px;
+    background-color: #fff;
+    height: 700px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 14px;
+    color: #01001a;
+    font-family: Whyte;
+}
+

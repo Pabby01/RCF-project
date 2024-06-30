@@ -1,0 +1,431 @@
+.border {
+    position: absolute;
+    top: 0px;
+    right: 2.3px;
+    border-radius: 2.67px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 22px;
+    height: 11.3px;
+    opacity: 0.35;
+    mix-blend-mode: normal;
+    visibility: hidden;
+}
+.cap-icon {
+    position: absolute;
+    top: 3.67px;
+    right: 0px;
+    width: 1.3px;
+    height: 4px;
+    opacity: 0.4;
+    mix-blend-mode: normal;
+}
+.capacity {
+    position: absolute;
+    top: 2px;
+    right: 4.3px;
+    border-radius: 1.33px;
+    background-color: #000;
+    width: 18px;
+    height: 7.3px;
+}
+.battery {
+    position: absolute;
+    top: 17.33px;
+    right: 14.37px;
+    width: 24.3px;
+    height: 11.3px;
+}
+.wifi-icon {
+    position: relative;
+    width: 15.3px;
+    height: 11px;
+}
+.cellular-connection-icon {
+    position: relative;
+    width: 17px;
+    height: 10.7px;
+}
+.time {
+    position: absolute;
+    width: 100%;
+    top: calc(50% - 4.5px);
+    left: 0%;
+    letter-spacing: -0.24px;
+    line-height: 20px;
+    font-weight: 600;
+    display: inline-block;
+}
+.time-style {
+    position: absolute;
+    top: 7px;
+    left: 21px;
+    width: 54px;
+    height: 21px;
+}
+.notch-icon {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 110.5px);
+    width: 219px;
+    height: 30px;
+}
+.status-bars {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 195.5px);
+    background-color: #fff;
+    width: 390px;
+    height: 56px;
+    font-size: 15px;
+    color: #000;
+    font-family: 'SF Pro Text';
+}
+.vuesaxtwotonearrow-left-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 24px;
+    height: 24px;
+}
+.business-profile1 {
+    position: absolute;
+    top: 4px;
+    left: calc(50% - 67.5px);
+    right: 100%;
+    line-height: 21px;
+    display: inline-block;
+    width: 135px;
+    height: 16px;
+    
+}
+.frame-child {
+    width: 3px;
+    position: relative;
+    border-radius: 50%;
+    background-color: #01001a;
+    height: 3px;
+}
+.ellipse-parent {
+    position: absolute;
+    top: calc(50% - 7px);
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 3px;
+}
+.vuesaxtwotonearrow-left-parent {
+    position: absolute;
+    top: 64px;
+    left: 24px;
+    width: 345px;
+    height: 24px;
+}
+.line {
+    position: absolute;
+    bottom: 8px;
+    left: calc(50% - 67.5px);
+    border-radius: 100px;
+    background-color: #000;
+    width: 135px;
+    height: 5px;
+}
+.home-indicator {
+    position: absolute;
+    bottom: 0px;
+    left: calc(50% - 187.5px);
+    width: 375px;
+    height: 34px;
+}
+.ellipse-div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 50%;
+    background: linear-gradient(99.09deg, #01aef3, #353374);
+    width: 107px;
+    height: 107px;
+}
+.logo {
+    position: absolute;
+    top: calc(50% - 26.75px);
+    left: calc(50% - 46.81px);
+    line-height: 60.19px;
+    display: inline-block;
+    width: 93.6px;
+    height: 46.8px;
+}
+.ellipse-group {
+    position: absolute;
+    top: 128px;
+    left: calc(50% - 53.5px);
+    width: 107px;
+    height: 107px;
+    font-size: 26.75px;
+    color: #fff;
+}
+.christ-media {
+    position: absolute;
+    top: 247px;
+    left: calc(50% - 60.5px);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: left;
+    display: inline-block;
+    width: 121px;
+    height: 17px;
+}
+.graphic-designs {
+    position: absolute;
+    top: 272px;
+    left: calc(50% - 158.5px);
+    font-size: 12px;
+    line-height: 18px;
+    color: #2b2b40;
+    display: inline-block;
+    width: 318px;
+}
+.location-icon {
+    width: 16px;
+    position: relative;
+    height: 16px;
+}
+.abeokuta-ogun-state {
+    width: 130px;
+    position: relative;
+    line-height: 18px;
+    display: inline-block;
+    height: 14px;
+    flex-shrink: 0;
+}
+.location-parent {
+    position: absolute;
+    top: 296px;
+    left: calc(50% - 73.5px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    font-size: 12px;
+    color: #80808c;
+}
+.frame-icon {
+    width: 40px;
+    position: relative;
+    height: 40px;
+}
+.frame-parent {
+    position: absolute;
+    top: 354px;
+    left: calc(50% - 79.5px);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.biography {
+    position: absolute;
+    top: 14px;
+    left: 16px;
+    line-height: 21px;
+    display: inline-block;
+    width: 70px;
+    height: 20px;
+}
+.lorem-ipsum-dolor {
+    position: absolute;
+    top: 46px;
+    left: calc(50% - 156.5px);
+    line-height: 21px;
+    color: #2b2b40;
+    white-space: pre-wrap;
+    display: inline-block;
+    width: 313px;
+}
+.biography-parent {
+    position: absolute;
+    top: 414px;
+    left: calc(50% - 172.5px);
+    filter: drop-shadow(1px 2px 3px rgba(0, 0, 0, 0.06));
+    border-radius: 4px;
+    border: 1px solid #f1f1f1;
+    box-sizing: border-box;
+    width: 345px;
+    height: 123px;
+    text-align: left;
+}
+.work-samples {
+    position: absolute;
+    top: 14px;
+    left: 16px;
+    line-height: 21px;
+    display: inline-block;
+    width: 98px;
+    height: 20px;
+}
+.frame-child3 {
+    position: absolute;
+    top: 12px;
+    left: 305px;
+    width: 24px;
+    height: 24px;
+}
+.rectangle-icon {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 74px);
+    width: 148px;
+    height: 106px;
+    object-fit: cover;
+}
+.rectangle-parent {
+    width: 148px;
+    position: relative;
+    border-radius: 4px;
+    background-color: #f6f6f6;
+    height: 141px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.uiux-designs {
+    position: absolute;
+    top: 115px;
+    left: calc(50% - 62px);
+    line-height: 18px;
+    font-weight: 500;
+    display: inline-block;
+    width: 112px;
+    height: 17px;
+}
+.frame-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 17px;
+}
+.wordpress-projects {
+    position: absolute;
+    top: 115px;
+    left: calc(50% - 62px);
+    line-height: 18px;
+    font-weight: 500;
+    display: inline-block;
+    width: 114px;
+    height: 17px;
+}
+.frame-group {
+    position: absolute;
+    top: 46px;
+    left: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 17px;
+    font-size: 12px;
+    color: #2b2b40;
+}
+.work-samples-parent {
+    position: absolute;
+    top: 553px;
+    left: calc(50% - 172.5px);
+    filter: drop-shadow(1px 2px 3px rgba(0, 0, 0, 0.06));
+    border-radius: 4px;
+    border: 1px solid #f1f1f1;
+    box-sizing: border-box;
+    width: 345px;
+    height: 364px;
+    text-align: left;
+}
+.media {
+    width: 41px;
+    position: relative;
+    line-height: 12px;
+    font-weight: 300;
+    background: linear-gradient(99.09deg, #01aef3, #353374);
+    -webkit-background-clip: text;
+    background-clip: content-box;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    height: 10px;
+    flex-shrink: 0;
+}
+.media-wrapper {
+    position: absolute;
+    top: 322px;
+    left: calc(50% - 26.5px);
+    border-radius: 4px;
+    border: 0.5px solid #01aef3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 6px;
+    text-align: left;
+    font-size: 10px;
+}
+.business-profile {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 988px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 14px;
+    color: #01001a;
+    font-family: Whyte;
+}
+/* Basic styles for the dropdown */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.dropdown {
+    position: relative;
+    right: -50%;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color:#0a65b9;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: hsl(223, 26%, 95%);
+}
+
+
